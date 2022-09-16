@@ -1,60 +1,26 @@
-body  
-{  
-    margin: 0;  
-    padding: 0;  
-    background-color:black;  
-    font-family: 'Arial';  
+
+#User{ 
+    background-color: #d0ebf7;    
+    font-size: medium;
+    border-color: #4287f5;
+    border-radius: 5px;  
+    padding: 5px;  
 }  
-.login{  
-        width: 382px;  
-        overflow: hidden;  
-        margin: auto;  
-        margin: 20 0 0 450px;  
-        padding: 80px;  
-        background:burlywood;  
-        border-radius: 15px ;  
-          
-}  
-h2{  
-    text-align: center;  
-    color:antiquewhite;  
-    padding: 20px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-}  
-label{  
-    color:brown;  
-    font-size: 18px; 
-    font-family:Arial; 
-}  
-#User{  
-    width: 300px;  
-    height: 35px;  
-    border: none;  
-    border-radius: 3px;  
-    padding-left: 8px;  
-}  
-#Pass{  
-    width: 300px;  
-    height: 35px;  
-    border: none;  
-    border-radius: 3px;  
-    padding-left: 8px;  
+#Pass{
+    background-color: #d0ebf7;     
+    font-size: medium;
+    border-color: #4287f5;
+    border-radius: 5px;  
+    padding: 5px;    
       
 }  
 #logbutton{  
-    width: 310px;  
+    background-color:#d0ebf7 ;
+    border-color: #4287f5;
+    width: 150px;  
     height: 30px;  
-    border: none;  
-    border-radius: 15px;  
-    padding-left: 7px;  
-    color: blue;  
+    border-radius: 5px;  
+    padding: 5px;    
   
 }
-span{  
-    color: white;  
-    font-size: 17px;  
-}  
-a{  
-    float: right;  
-    background-color: grey;  
-} 
+ 
