@@ -1,10 +1,10 @@
 const postLoad = () => {
     console.log("Hello World!")
 
-    const loginBtn = document.querySelector('#logbutton');
+    const loginBtn = document.querySelector('#btn');
     loginBtn.onclick = () => {
-        const usernameTxt = document.getElementById('User').value
-        const passwordTxt = document.getElementById('Pass').value
+        const usernameTxt = document.getElementById('username').value
+        const passwordTxt = document.getElementById('password').value
 
         if(usernameTxt == ''){
             alert('Please enter username')
@@ -32,3 +32,4 @@ const postLoad = () => {
 
 }
 window.onload = postLoad
+
