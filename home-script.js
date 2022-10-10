@@ -3,8 +3,12 @@ const postLoad = () => {
   let list = document.getElementById('list');
   const addBtn = document.querySelector('#button');
 addBtn.onclick = () => {
-  let input = prompt('Enter name');
-  list.innerHTML += '<li class="list-group-item">' + input + '</li>';
+  let firstName = prompt('First name');
+  let lastName = prompt('Last name');
+  if(firstName && lastName != null){
+    list.innerHTML += '<li class="list-group-item">' + firstName + " " + lastName + '</li>';
+  }
+  return
 }
 }
 
