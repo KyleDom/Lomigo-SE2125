@@ -1,3 +1,20 @@
-body {
-    background: black;
+.buttonContainer {
+    text-align: center;
+}
+
+.listContainer .header{
+    text-align: center;
+    font-size: 30px;
+    color: white
+}
+
+.listContainer {
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+}
+.listContainer ol li {
+    background-color: grey;
+    margin: 4px;
+    font-family:monospace;
 }
