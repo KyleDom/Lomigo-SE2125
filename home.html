@@ -10,13 +10,19 @@
     crossorigin="anonymous">
     <title>Home</title>
 </head>
-<body>
+<body style="background-color: black;">
     <script src="home-script.js"></script>
-    <button type="button" class="btn btn-danger" id="button">Add name</button>
+    <div class="listContainer">
+        <h1 class="header">Employee Attendance List</h1>
+        <ol id='list' class="list-group list-group-numbered">
+            <li class="list-group-item">Riot Dev 1</li>
+            <li class="list-group-item">Riot Dev 2</li>
+        </ol>
+    </div> 
+    <br>
+    <div class="buttonContainer">
+        <button type="button" class="btn btn-danger" id="button">Log Attendance</button>
+    </div>
 
-<ul id='list' class="list-group">
-  <li class="list-group-item">Riot Dev 1</li>
-  <li class="list-group-item">Riot Dev 2</li>
- </ul>
 </body>
 </html>
